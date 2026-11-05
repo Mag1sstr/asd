@@ -1,0 +1,386 @@
+{
+  "ru": {
+    "header": {
+      "company": "КОМПАНИЯ",
+      "catalog": "КАТАЛОГ",
+      "services": "УСЛУГИ",
+      "info": "ИНФОРМАЦИЯ",
+      "contacts": "КОНТАКТЫ",
+      "login": "Войти"
+    },
+    "banners": {
+      "ban1": "НАДЕЖНЫЕ, КАЧЕСТВЕННЫЕ КОМПРЕССОРЫ",
+      "ban2": "ПРОФЕССИОНАЛЬНАЯ ПОМОЩЬ ВАШЕМУ АВТОМОБИЛЮ",
+      "ban3": "КОМАНДА ВЫСОКОКЛАССНЫХ СПЕЦИАЛИСТОВ",
+      "ban4": "ЗАБОТЛИВЫЙ СЕРВИС И СВОЕВРЕВЕННАЯ ИНФОРМАЦИЯ",
+      "btn": "ПЕРЕЙТИ В КАТАЛОГ",
+      "main_page": "ПЕРЕЙТИ НА ГЛАВНУЮ",
+      "not_found": "СТРАНИЦА НЕ НАЙДЕНА"
+    },
+    "advantages": {
+      "ad1": "Наличный и безналичный расчет",
+      "ad2": "Техническая помощь и консультация",
+      "ad3": "Только качественная и проверенная продукция",
+      "ad4": "Мы всегда на связи с 9:00 до 18:00!"
+    },
+    "auto_info": {
+      "title": "Автотовары: аксессуары, расходники и многое другое",
+      "text": "PROAuto - это специализированный интернет магазин востребованных товаров для автомобилей.",
+      "card_text": "КОМПРЕССОРЫ",
+      "btn": "ЗАКАЗАТЬ ОНЛАЙН"
+    },
+    "services": {
+      "title": "услуги",
+      "text": "Менеджеры компании с радостью ответят на ваши вопросы и помогут с выбором продукции.",
+      "card_title1": "БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА",
+      "card_text1": "Поможем с выбором аккумулятора, моторного масла и аксессуаров для автомобиля под ваши требования. ",
+      "card_title2": "ОБМЕН СТАРОГО АККУМУЛЯТОРА НА НОВЫЙ",
+      "card_text2": "Принесите нам старую АКБ для легкового автомобиля, и мы предоставим Вам скидку на новый аккумулятор!",
+      "card_title3": "БЕСПЛАТНАЯ ДИАГНОСТИКА АККУМУЛЯТОРА",
+      "card_text3": "Приезжайте к нам и мы бесплатно проведём диагностику вашего аккумулятора!",
+      "btn": "ЗАДАТЬ ВОПРОС"
+    },
+    "company": {
+      "title": "о компании",
+      "text": "Машина плохо заводится? Аккумулятор вас подводит? Не проблема! Вам в «PRO Auto»! Мы подберём хороший, надёжный, а главное недорогой аккумулятор именно для вашего авто! С 1997 года сеть магазинов «PRO Auto» занимается продажей автомобильных аккумуляторов, масел, расходных материалов, химией и аксессуаров.",
+      "btn": "УЗНАТЬ БОЛЬШЕ"
+    },
+    "news": {
+      "title": "новости",
+      "card_title1": "У НАС НОВЫЙ ЛОГОТИП И НОВЫЙ САЙТ!",
+      "card_title2": "ОБНОВЛЕНИЕ ЛИНЕЙКИ АККУМУЛЯТОРОВ VARTRA ",
+      "card_title3": "БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА ТЕПЕРЬ В РЕЖИМЕ ONLINE",
+      "card_date1": "12 февраля 2025 года",
+      "card_date2": "10 февраля 2025 года",
+      "card_date3": "5 февраля 2025 года",
+      "btn": "ЧИТАТЬ ВСЕ НОВОСТИ"
+    },
+    "modals": {
+      "login": {
+        "title": "Авторизация",
+        "text": "Войдите в свой аккаунт",
+        "btn": "войти",
+        "sec_btn": "Создать новый аккаунт"
+      },
+      "reg": {
+        "title": "Регистрация",
+        "text": "Создайте новый аккаунт",
+        "btn": "Зарегистрироваться",
+        "sec_btn": "Уже есть аккаунт?"
+      },
+      "ask": {
+        "success_text": "ВАШЕ ПИСЬМО УСПЕШНО ОТПРАВЛЕНО!",
+        "btn": "ОТПРАВИТЬ",
+        "modaltop_text": "Менеджеры компании с радостью ответят на ваши вопросы и помогут с выбором продукции.",
+        "modaltop_title": "задать вопрос"
+      },
+      "email": "Почта",
+      "password": "Пароль",
+      "name": "Ваше имя",
+      "surname": "Фамилия",
+      "tel": "Телефон",
+      "message": "Сообщение"
+    },
+    "errors": {
+      "req": "Обязательное поле",
+      "email": "Некорректная почта",
+      "phone": "Неверный формат"
+    },
+    "toast": {
+      "inc_data": "Неверные данные!",
+      "reg": "Вы зарегистрировались!",
+      "add_cart": "Добавлено в корзину!",
+      "not_available": "Нет в наличии!",
+      "review_err": "Отзыв должен содержать минимум 10 букв.",
+      "review_send": "Спасибо за ваш отзыв!"
+    },
+    "filters": {
+      "brand": "Марка",
+      "model": "Модель",
+      "gen": "Поколение",
+      "all_brands": "Все марки",
+      "all_models": "Все модели",
+      "all_gen": "Все поколения",
+      "available": "в наличии",
+      "not_available": "нет в наличии"
+    },
+    "paths": {
+      "home": "Главная",
+      "catalog": "КАТАЛОГ",
+      "company": "КОМПАНИЯ",
+      "cart": "Корзина",
+      "profile": "Личный кабинет",
+      "info": "информация",
+      "contacts": "КОНТАКТЫ"
+    },
+    "catalog": {
+      "title": "FrostAuto - каталог компрессоров",
+      "header_filters": {
+        "sort": "сортировать",
+        "price": "по цене",
+        "available": "ПО НАЛИЧИЮ",
+        "view": "вид"
+      },
+      "footer": {
+        "title": "Преимущества компрессоров FrostAuto",
+        "text1": "Компрессоры FrostAuto сконструированы именно так, чтобы обеспечить мощность и надежность. Они производятся из импортных компонентов на современном оборудовании. Компрессоры FrostAuto изготавливаются по технологии Ca/Ca, что способствует снижению расхода воды и саморазряда.",
+        "text2": "На производстве компрессоров FrostAuto после каждой технологической операции обязательно проводится промежуточный контроль качества на короткое замыкание и обрыв цепи, что минимизирует процент заводского брака. Весь технологический процесс находится под контролем специалистов завода и соответствует международным нормам и стандартам. Это обеспечивает выпуск батарей, полностью отвечающих требованиям автомобилей двадцать первого века.",
+        "card1_text": "Отличное сочетание цены и качества",
+        "card2_text": "Продолжительный срок службы",
+        "card3_text": "Для стандартной комплектациии авто",
+        "card4_text": "Высокое качество по невысокой цене"
+      },
+      "product_card": {
+        "btn": "подробнее",
+        "add_cart": "в корзину"
+      }
+    },
+    "cart": {
+      "cart_drop": {
+        "result": "Итог",
+        "btn": "ПЕРЕЙТИ В КОРЗИНУ"
+      }
+    },
+    "profile": {
+      "exit": "Выйти",
+      "tabs": {
+        "orders": {
+          "tab": "Мои заказы",
+          "history": "История заказов",
+          "num_order": "Номер заказа",
+          "name_order": "Наименование товара",
+          "date_order": "Дата заказа",
+          "price_order": "Стоимость"
+        }
+      }
+    },
+    "order_service": {
+      "tabs": {
+        "order": "Заказать услугу",
+        "question": "Задать вопрос"
+      },
+      "diagnostics": {
+        "title": "ДИАГНОСТИКА АККУМУЛЯТОРА",
+        "banner_text": "ТРЕБУЕТ ЛИ ЗАМЕНЫ АККУМУЛЯТОР?",
+        "desc": "Профессионалы магазина «PRO auto» совершенно бесплатно проведут диагностику АКБ Вашего автомобиля, а также дадут рекомендации по дальнейшей эксплуатации аккумулятора, или по его замене, в случае необходимости. Ждём Вас в наших отделах продаж!"
+      },
+      "reception": {
+        "title": "прием аккумуляторов",
+        "banner_text": "ПОКУПАЕМ Б/У АККУМУЛЯТОРЫ от 600 руб",
+        "desc": "Наша компания специализируется скупке поддержанных АКБ. Прием бу аккумуляторов для авто – от 600 рублей."
+      }
+    },
+    "contacts": {
+      "subtitle": "Аккумуляторы и автомасла в Астане",
+      "how_contact": "Как с нами связаться",
+      "mode": "Режим работы",
+      "adress": "Астана, бульвар Нуржол, 14",
+      "schedule": "Пн. – Вс.: с 9:00 до 18:00"
+    },
+    "reviews": {
+      "title": "ОТЗЫВЫ",
+      "subtitle": "Для нас ценно любое Ваше мнение.",
+      "btn": "ОСТАВИТЬ СВОЙ ОТЗЫВ"
+    },
+    "faq": {
+      "subtitle": "В данном разделе приведены ответа на часто задаваемые вопросы наших клиентов.",
+      "tabs": {
+        "question": "Общие вопросы",
+        "care": "Эксплуатация и уход"
+      },
+      "btn": "ЗАДАТЬ ВОПРОС"
+    }
+  },
+  "en": {
+    "header": {
+      "company": "company",
+      "catalog": "catalog",
+      "services": "services",
+      "info": "info",
+      "contacts": "contacts",
+      "login": "Login"
+    },
+    "banners": {
+      "ban1": "RELIABLE, HIGH-QUALITY COMPRESSORS",
+      "ban2": "PROFESSIONAL HELP FOR YOUR CAR",
+      "ban3": "TEAM OF HIGHLY QUALIFIED SPECIALISTS",
+      "ban4": "CARING SERVICE AND TIMELY INFORMATION",
+      "btn": "GO TO CATALOG",
+      "main_page": "GO TO MAIN PAGE",
+      "not_found": "NOT FOUND"
+    },
+    "advantages": {
+      "ad1": "Cash and non-cash payments",
+      "ad2": "Technical assistance and consultation",
+      "ad3": "Only high-quality and tested products",
+      "ad4": "We are always in touch from 9:00 to 18:00!"
+    },
+    "auto_info": {
+      "title": "Automotive products: accessories, consumables and much more",
+      "text": "PROAuto is a specialized online store of popular automobile products.",
+      "card_text": "COMPRESSORS",
+      "btn": "ORDER ONLINE"
+    },
+    "services": {
+      "title": "services",
+      "text": "The company's managers will be happy to answer your questions and help you choose products.",
+      "card_title1": "FREE CONSULTATION WITH A SPECIALIST",
+      "card_text1": "We will help you choose a battery, motor oil and car accessories according to your requirements.",
+      "card_title2": "EXCHANGE OF AN OLD BATTERY FOR A NEW ONE",
+      "card_text2": "Bring us your old car battery and we will give you a discount on a new battery!",
+      "card_title3": "FREE BATTERY DIAGNOSTICS",
+      "card_text3": "Come to us and we will diagnose your battery for free!",
+      "btn": "ASK A QUESTION"
+    },
+    "company": {
+      "title": "about the company",
+      "text": "Your car starts poorly? Your battery is failing you? No problem! You should go to PRO Auto! We will select a good, reliable, and most importantly inexpensive battery specifically for your car! Since 1997, the PRO Auto chain of stores has been selling car batteries, oils, consumables, chemicals, and accessories.",
+      "btn": "LEARN MORE"
+    },
+    "news": {
+      "title": "News",
+      "card_title1": "WE HAVE A NEW LOGO AND A NEW WEBSITE!",
+      "card_title2": "VARTRA BATTERY LINE UPDATE ",
+      "card_title3": "FREE CONSULTATION WITH A SPECIALIST NOW ONLINE",
+      "card_date1": "February 12, 2025",
+      "card_date2": "February 10, 2025",
+      "card_date3": "February 5, 2025",
+      "btn": "READ ALL NEWS"
+    },
+    "modals": {
+      "login": {
+        "title": "Login",
+        "text": "Login to your account",
+        "btn": "Log In",
+        "sec_btn": "Create a new account"
+      },
+      "reg": {
+        "title": "Registration",
+        "text": "Create a new account",
+        "btn": "Sign Up",
+        "sec_btn": "Do you have an account?"
+      },
+      "ask": {
+        "success_text": "YOUR LETTER HAS BEEN SUCCESSFULLY SENT!",
+        "btn": "SEND",
+        "modaltop_text": "The company's managers will be happy to answer your questions and help you choose products.",
+        "modaltop_title": "ask a question"
+      },
+      "email": "E-mail",
+      "password": "Password",
+      "name": "Name",
+      "surname": "Surname",
+      "tel": "Telephone",
+      "message": "Message"
+    },
+    "errors": {
+      "req": "Required field",
+      "email": "Invalid email",
+      "phone": "Invalid format"
+    },
+    "toast": {
+      "inc_data": "Incorrect data!",
+      "reg": "You have registered!",
+      "add_cart": "Added to cart!",
+      "not_available": "Not available!",
+      "review_err": "The review must contain at least 10 letters.",
+      "review_send": "Thank you for your feedback!"
+    },
+    "filters": {
+      "brand": "Brand",
+      "model": "Model",
+      "gen": "Generation",
+      "all_brands": "All brands",
+      "all_models": "All models",
+      "all_gen": "All generations",
+      "available": "in stock",
+      "not_available": "not available"
+    },
+    "paths": {
+      "home": "home",
+      "catalog": "catalog",
+      "company": "company",
+      "cart": "Cart",
+      "profile": "profile",
+      "info": "info",
+      "contacts": "contacts"
+    },
+    "catalog": {
+      "title": "FrostAuto - compressor catalog",
+      "header_filters": {
+        "sort": "sort",
+        "price": "by price",
+        "available": "IN STOCK",
+        "view": "view"
+      },
+      "footer": {
+        "title": "Advantages of FrostAuto compressors",
+        "text1": "Magnum batteries are designed specifically to provide power and reliability. They are manufactured from imported components on modern equipment. Magnum batteries are manufactured using Ca/Ca technology, which helps reduce water consumption and self-discharge.",
+        "text2": "At the production of Magnum batteries, after each technological operation, intermediate quality control for short circuits and open circuits is mandatory, which minimizes the percentage of factory defects. The entire technological process is under the control of plant specialists and complies with international norms and standards. This ensures the production of batteries that fully meet the requirements of twenty-first century cars.",
+        "card1_text": "Excellent value for money",
+        "card2_text": "Long service life",
+        "card3_text": "For standard car equipment",
+        "card4_text": "High quality at a low price"
+      },
+      "product_card": {
+        "btn": "more details",
+        "add_cart": "add to cart"
+      }
+    },
+    "cart": {
+      "cart_drop": {
+        "result": "Total",
+        "btn": "GO TO CART"
+      }
+    },
+    "profile": {
+      "exit": "Log out",
+      "tabs": {
+        "orders": {
+          "tab": "My orders",
+          "history": "Order history",
+          "num_order": "Order number",
+          "name_order": "Product name",
+          "date_order": "Order date",
+          "price_order": "Price"
+        }
+      }
+    },
+    "order_service": {
+      "tabs": {
+        "order": "Order a service",
+        "question": "Ask a question"
+      },
+      "diagnostics": {
+        "title": "BATTERY DIAGNOSTICS",
+        "banner_text": "DOES THE BATTERY NEED TO BE REPLACED?",
+        "desc": "The professionals of the PRO auto store will diagnose your car battery absolutely free of charge, and also give recommendations on further use of the battery, or on its replacement, if necessary. We are waiting for you in our sales departments!"
+      },
+      "reception": {
+        "title": "battery acceptance",
+        "banner_text": "WE BUY USED BATTERIES from 600 rubles",
+        "desc": "Our company specializes in buying used batteries. Acceptance of used car batteries - from 600 rubles."
+      }
+    },
+    "contacts": {
+      "subtitle": "Batteries and motor oils in Astana",
+      "how_contact": "How to contact us",
+      "mode": "Operating mode",
+      "adress": "Astana, Nurzhol Boulevard, 14",
+      "schedule": "Mon. - Sun.: from 9:00 to 18:00"
+    },
+    "reviews": {
+      "title": "REVIEWS",
+      "subtitle": "We value any of your opinions.",
+      "btn": "LEAVE YOUR REVIEW"
+    },
+    "faq": {
+      "subtitle": "This section contains answers to frequently asked questions from our clients.",
+      "tabs": {
+        "question": "General questions",
+        "care": "Operation and maintenance"
+      },
+      "btn": "ASK A QUESTION"
+    }
+  }
+}

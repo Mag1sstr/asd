@@ -1,0 +1,34 @@
+.counter {
+  border: 2px solid var(--gray);
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  color: var(--gray);
+  min-height: 40px;
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    min-height: 100%;
+    border: 2px solid var(--gray);
+  }
+}
+.counter__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  min-height: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+  user-select: none;
+  border: 2px solid var(--gray);
+  &:hover {
+    background-color: var(--gray);
+    color: #fff;
+  }
+  &:active {
+    filter: brightness(90%);
+  }
+}

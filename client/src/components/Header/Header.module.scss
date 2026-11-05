@@ -1,0 +1,147 @@
+.header {
+  position: relative;
+
+  overflow: hidden;
+  background-color: #000;
+  z-index: 100;
+}
+
+.header__top {
+  background: rgba($color: #0e0e0e, $alpha: 0.85);
+  backdrop-filter: opacity(0.85);
+}
+.row {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.links {
+  min-height: inherit;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.link {
+  min-height: inherit;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  &::before {
+    opacity: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c53720;
+    bottom: 0;
+    transition: 0.2s;
+  }
+  &:hover::before {
+    opacity: 1;
+  }
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.search {
+  cursor: pointer;
+  & > svg * {
+    transition: 0.3s;
+  }
+  &:hover > svg * {
+    fill: var(--red);
+  }
+  &.search__active {
+    & > svg * {
+      fill: var(--red);
+    }
+  }
+}
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  svg * {
+    transition: 0.3s;
+  }
+  &:hover {
+    & > svg * {
+      stroke: var(--red);
+    }
+  }
+}
+.cart__active {
+  & > svg * {
+    stroke: var(--red);
+  }
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: var(--red);
+  border-radius: 50%;
+  font-weight: 700;
+}
+.banner__height {
+  min-height: 720px;
+}
+@media (max-width: 610px) {
+  .banner__height {
+    min-height: 480px;
+  }
+}
+@media (max-width: 520px) {
+  .icons {
+    gap: 5px;
+  }
+  .logo {
+    width: 90px;
+  }
+  .logo__row {
+    gap: 10px;
+  }
+  .user {
+    width: 24px;
+  }
+  .search {
+    svg {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  .cart {
+    svg {
+      width: 35px;
+      height: 35px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .row {
+    min-height: 80px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+}

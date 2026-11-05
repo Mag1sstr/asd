@@ -1,0 +1,47 @@
+.page {
+  min-height: 60vh;
+  padding: 48px 0 80px;
+  color: #1d1d1d;
+
+  h1 { margin-bottom: 28px; font-size: 32px; }
+}
+
+.notice { padding: 24px; background: #f5f5f5; border-radius: 8px; }
+.notice button { margin-left: 12px; color: #c53720; text-decoration: underline; }
+.tabs { display: flex; gap: 12px; margin-bottom: 24px; border-bottom: 1px solid #ddd; }
+.tabs button { padding: 12px 18px; color: #555; }
+.tabs .active { color: #c53720; border-bottom: 2px solid #c53720; }
+.section { padding: 24px; background: #fff; border: 1px solid #e7e7e7; border-radius: 8px; }
+.section h2 { margin: 0 0 18px; font-size: 22px; }
+.form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 30px; }
+.form input, .form select, .form textarea, .inlineForm input {
+  width: 100%; min-height: 42px; padding: 10px 12px; border: 1px solid #ccc; border-radius: 4px; background: #fff;
+}
+.form textarea { min-height: 90px; grid-column: 1 / -1; resize: vertical; }
+.upload { display: flex; align-items: center; gap: 12px; padding: 10px; border: 1px dashed #bbb; border-radius: 4px; }
+.upload input { min-height: initial; padding: 0; border: 0; }
+.uploaded { align-self: center; color: #43824b; }
+.inlineForm { display: flex; gap: 10px; max-width: 620px; margin-bottom: 24px; }
+.inlineForm input { flex: 1; }
+.primary, .actions button { padding: 10px 14px; border: 1px solid #ccc; border-radius: 4px; }
+.primary { color: #fff; background: #c53720; border-color: #c53720; }
+.primary:disabled { opacity: .6; }
+.list { border-top: 1px solid #eee; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px 0; border-bottom: 1px solid #eee; }
+.row strong, .row small { display: block; }
+.row small { margin-top: 5px; color: #777; }
+.inquiry { padding: 14px 0; border-bottom: 1px solid #eee; }
+.inquiry .row { padding: 0 0 8px; border: 0; }
+.inquiry p { white-space: pre-wrap; }
+.actions { display: flex; align-items: center; gap: 8px; }
+.danger { color: #b42318; }
+
+@media (max-width: 700px) {
+  .page { padding: 28px 0 50px; }
+  .page h1 { font-size: 26px; }
+  .section { padding: 16px; }
+  .form { grid-template-columns: 1fr; }
+  .form textarea { grid-column: auto; }
+  .row { align-items: flex-start; flex-direction: column; }
+  .inlineForm { flex-wrap: wrap; }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pro-auto-store",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "start:server": "npm --prefix server start",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build"
+  }
+}

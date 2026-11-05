@@ -1,0 +1,48 @@
+.wrapper {
+  position: relative;
+  padding: 88px 0;
+  background-image: url(../../assets/section-faq/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0.7) 100%);
+  }
+}
+.inner {
+  position: relative;
+  z-index: 10;
+}
+.subtitle {
+  margin: 0 auto;
+  font-size: 24px;
+  max-width: 892px;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 36px;
+}
+.switch {
+  display: flex;
+  border-bottom: 1px solid var(--text-black);
+  margin-bottom: 32px;
+  p {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 4px solid transparent;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    &.active {
+      border-bottom: 4px solid var(--red);
+      color: var(--red);
+    }
+  }
+}
+
+.col {
+  margin-bottom: 72px;
+}

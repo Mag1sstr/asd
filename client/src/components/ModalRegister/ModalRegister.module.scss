@@ -1,0 +1,21 @@
+.main {
+  color: var(--text-black);
+  width: 100%;
+  background-color: #fff;
+  padding: 24px 40px;
+}
+
+.buttons {
+  color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  P {
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+      filter: brightness(80%);
+    }
+  }
+}

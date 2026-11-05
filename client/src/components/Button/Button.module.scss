@@ -1,0 +1,21 @@
+.btn {
+  background: transparent;
+  border: 4px solid var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: inherit;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  gap: 10px;
+
+  &:hover {
+    background-color: #fff;
+    color: #000 !important;
+  }
+  &:active {
+    filter: brightness(80%);
+  }
+}

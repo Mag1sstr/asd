@@ -1,0 +1,43 @@
+import cors from 'cors';
+import express from 'express';
+import swaggerUi from 'swagger-ui-express';
+import { bootstrapStatus } from './controllers/adminController.js';
+import { asyncRoute } from './middleware/asyncRoute.js';
+import { openApi } from './docs/openApi.js';
+import { healthRoutes } from './routes/healthRoutes.js';
+import { authRoutes } from './routes/authRoutes.js';
+import { productRoutes } from './routes/productRoutes.js';
+import { categoryRoutes } from './routes/categoryRoutes.js';
+import { newsRoutes } from './routes/newsRoutes.js';
+import { commentRoutes } from './routes/commentRoutes.js';
+import { cartRoutes } from './routes/cartRoutes.js';
+import { orderRoutes } from './routes/orderRoutes.js';
+import { uploadRoutes } from './routes/uploadRoutes.js';
+import { inquiryRoutes } from './routes/inquiryRoutes.js';
+import { uploadsDir } from './controllers/uploadController.js';
+
+const app = express();
+app.use(cors({ origin: process.env.CLIENT_ORIGIN?.split(',') ?? true }));
+app.use(express.json({ limit: '2mb' }));
+app.use('/uploads', express.static(uploadsDir));
+app.use('/api/health', healthRoutes);
+app.use('/api', authRoutes);
+app.use('/api', productRoutes);
+app.use('/api/categories', categoryRoutes);
+app.use('/api/news', newsRoutes);
+app.use('/api/reviews', commentRoutes);
+app.use('/api/cart', cartRoutes);
+app.use('/api/orders', orderRoutes);
+app.use('/api/uploads', uploadRoutes);
+app.use('/api/inquiries', inquiryRoutes);
+app.get('/api/admin/bootstrap-status', asyncRoute(bootstrapStatus));
+app.get('/api/openapi.json', (_req, res) => res.json(openApi));
+app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(openApi));
+app.use((error, _req, res, _next) => {
+  console.error(error);
+  const status = error.code === '23505' ? 409 : error.code === '23503' ? 400 : 400;
+  const message = error.code === '23505' ? 'Already exists' : error.code === '23503' ? 'Referenced record does not exist' : error.message || 'Request failed';
+  res.status(status).json({ error: message });
+});
+
+export { app };
