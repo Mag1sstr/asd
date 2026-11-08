@@ -24,11 +24,11 @@ function Search() {
   };
   const ref = useRef<HTMLDivElement>(null);
 
-  useClickOutside(ref, () => {
-    if (openSearch) {
-      handleCloseSearch();
-    }
-  }, [openSearch]);
+  // useClickOutside(ref, () => {
+  //   if (openSearch) {
+  //     handleCloseSearch();
+  //   }
+  // }, [openSearch]);
 
   return (
     <section
