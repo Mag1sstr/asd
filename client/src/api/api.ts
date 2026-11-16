@@ -25,7 +25,7 @@ const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:4000/api";
 
 export const api = createApi({
   reducerPath: "api",
-  tagTypes: ["Cart", "Review", "Product", "Category", "News", "Order"],
+  tagTypes: ["Cart", "Review", "Product", "Category", "News", "Order", "User"],
   baseQuery: fetchBaseQuery({
     baseUrl: API_URL,
     prepareHeaders(headers, { getState }) {
@@ -211,6 +211,7 @@ export const api = createApi({
           password,
         },
       }),
+      invalidatesTags: ["User"],
     }),
     loginUser: builder.mutation<ILoginResponse, ILoginBody>({
       query: ({ email, password }) => ({
@@ -221,8 +222,12 @@ export const api = createApi({
           password,
         },
       }),
+      invalidatesTags: ["User"],
     }),
-    getUser: builder.query<IUser, void>({ query: () => "/auth/user" }),
+    getUser: builder.query<IUser, void>({
+      query: () => "/auth/user",
+      providesTags: ["User"],
+    }),
 
     createOrder: builder.mutation<number, IOrderBody>({
       query: (body) => ({
